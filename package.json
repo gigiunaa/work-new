@@ -1,0 +1,13 @@
+{
+  "name": "image-mapper",
+  "version": "1.0.0",
+  "description": "Simple API to map image arrays into IDX+URL",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
