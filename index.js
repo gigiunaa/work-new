@@ -29,7 +29,7 @@ app.post("/map-images", (req, res) => {
       for (let i = 0; i < input.images.length; i++) {
         out.push({
           IDX: i + 1,
-          URL: input.images[i]
+          URL: String(input.images[i]).replace(/^"+|"+$/g, "")
         });
       }
     }
